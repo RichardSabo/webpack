@@ -1,0 +1,39 @@
+{
+  "name": "wpack2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
+    "build": "webpack --config ./build/webpack.build.conf.js"
+  },
+  "browserslist": [
+    ">1%",
+    "last 3 version"
+  ],
+  "author": "Richard Sabo",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^5.0.2",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "mini-css-extract-plugin": "^1.3.6",
+    "node-less": "^1.0.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^4.2.2"
+  }
+}
